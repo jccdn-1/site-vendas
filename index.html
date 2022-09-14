@@ -15,11 +15,13 @@
     <header class="container-fluid">
         <!-- container -->
         <section class="container">
+            <!-- row -->
             <article class="row">
+                <!-- logo -->
                 <a href="/" class="col-md-2">
                     <img src="./assets/images/logo.svg" alt="Lima Material de Construção">
                 </a>
-
+                <!-- search -->
                 <form action="#" class="col-md-7">
                     <input type="text" name="name" placeholder="Buscar por Produtos e Departamentos">
                     <button>
@@ -30,7 +32,7 @@
                         </svg>
                     </button>
                 </form>
-
+                <!-- client navigation -->
                 <ul class="col-md-3 nav">
                     <li class="nav-item">
                         <a href="#">
@@ -55,11 +57,84 @@
                 </ul>
 
             </article>
+            <!-- row -->
         </section>
         <!-- end container -->
     </header>
+    <!-- end header -->
 
+    <!-- navigation-->
+    <nav class="container-fluid nav-produtos">
+        <!-- container -->
+        <section class="container">
+            <!-- nav items -->
+            <ul class="nav">
+                <!-- menu -->
+                <li class="nav-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                    Departamentos
 
+                    <!-- submenu-->
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            Banheiros
+                        </li>
+                        <li class="nav-item">
+                            Cama, Mesa e Banho
+                        </li>
+                        <li class="nav-item">
+                            Ferramentas
+                        </li>
+                        <li class="nav-item">
+                            Materiais de Construção
+                        </li>
+                        <li class="nav-item">
+                            Materiais Elétrico
+                        </li>
+                        <li class="nav-item">
+                            Materiais Hidráulico
+                        </li>
+                    </ul>
+                    <!-- end submenu-->
+                </li>
+                <li class="nav-item">
+                    Ofertas
+                </li>
+                <!-- end menu -->
+            </ul>
+            <!-- nav items -->
+        </section>
+        <!-- end container -->
+    </nav>
+    <!-- end navigation-->
+
+    <!-- promotional banners -->
+    <section id="banners-promocionais" class="container carousel slide" data-bs-ride="carousel">
+        <article class="carousel-inner">
+            <figure class="carousel-item active">
+                <img src="./assets/images/banner-1.svg" class="d-block w-100" alt="Banner Promocional 1">
+            </figure>
+
+            <figure class="carousel-item">
+                <img src="./assets/images/banner-2.svg" class="d-block w-100" alt="Baner Promocional 2">
+            </figure>
+        </article>
+        <button class="carousel-control-prev" type="button" data-bs-target="#banners-promocionais" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#banners-promocionais" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+    <!-- end promotional banners -->
+
+    <!-- bootstrap archive -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
